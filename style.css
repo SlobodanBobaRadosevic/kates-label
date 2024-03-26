@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Cormorant Garamond", serif !important;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f6f6f6;
+  overflow-x: hidden !important;
+}
+
+.kateslogo {
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  top: 25px;
+  transform: translate(-50%, 0);
+  z-index: 1;
+}
+
+.hamburger-menu {
+  position: absolute;
+  left: 15px;
+  top: 5px;
+}
+
+.video-holder {
+  max-height: 100vh;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.video-holder video {
+  float: left;
+  opacity: 0.8;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.heading-collection {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.product-container img {
+  width: 100%;
+  transition: all 0.1s ease-in-out;
+}
+
+.product-container {
+  border: 1px solid #979797;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+  position: relative;
+}
+
+.product-title {
+  margin-bottom: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.product-title h4 {
+  margin: 0;
+  text-align: center;
+}
+
+.img2 {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.product-container:hover {
+  cursor: pointer;
+}
+
+.product-container:hover .product-title {
+  color: #fff;
+  letter-spacing: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.product-container:hover img {
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.product-container:hover .img1 {
+  opacity: 0;
+}
+
+.product-container:hover .img2 {
+  opacity: 1;
+}
+
+.img1 {
+  transform: scale(1.15) translateY(18px);
+}
+
+@media (max-width: 768px) {
+  .img1 {
+    transform: scale(1) translateY(0px);
+  }
+
+  .product-title {
+    margin-bottom: 2px;
+  }
+
+  .product-title h4 {
+    font-size: 19.5px;
+  }
+  .product-title h4.price {
+    margin-top: -8px;
+  }
+}
+
+.action-hero {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 32px;
+  z-index: 9999;
+}
+
+.action-hero button {
+  border: 1px solid #fff;
+  padding: 7px 30px;
+  background-color: #ffffff21;
+  cursor: pointer;
+  color: #fff !important;
+}
+
+.relative {
+  position: relative;
+}
+
+.eapps-widget-toolbar {
+  display: none !important;
+}
+
+.ig-widget a[href="https://elfsight.com/instagram-feed-instashow/?utm_source=websites&utm_medium=clients&utm_content=instashow&utm_term=%25website_domain%25&utm_campaign=free-widget"]
+{
+  display: none !important;
+}
+
+.just-center {
+  justify-content: center;
+}
+
+.corousel-holder {
+  margin-bottom: 35px;
+}
+
+.overlaydiv {
+  background-color: #00000054;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
